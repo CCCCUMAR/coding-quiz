@@ -74,8 +74,8 @@ var questions = [
                 }
             }, 1000);
         }
-
-        window.onload = function () {
+        var startbtn = document.getElementById(start-btn)
+        startbtn.onclick = function () {
             var fiveMinutes = 60 * 5,
                 display = document.querySelector('#time');
             startTimer(fiveMinutes, display);

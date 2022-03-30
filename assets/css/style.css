@@ -5,7 +5,10 @@
     flex-direction: column;
     justify-content:center;
     text-align: center;
-    border: solid 2px green;
+    background-color: rgb(157, 212, 212);
+    border: solid 1px green;
+    margin: 25px;
+    height: 300px;
 
     
 }
@@ -13,4 +16,3 @@
 #quiz-content{
     display:none
 }
-

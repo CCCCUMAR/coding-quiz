@@ -1,0 +1,16 @@
+.main-content{
+    
+    display: flex;
+    display: block;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    border: solid 2px green;
+
+    
+}
+
+#quiz-content{
+    display:none
+}
+
